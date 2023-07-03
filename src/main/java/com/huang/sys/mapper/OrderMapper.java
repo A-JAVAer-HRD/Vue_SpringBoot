@@ -1,6 +1,6 @@
 package com.huang.sys.mapper;
 
-import com.huang.sys.entity.Menu;
+import com.huang.sys.entity.Order;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * </p>
  *
  * @author huangrd
- * @since 2023-07-03
+ * @since 2023-07-01
  */
-public interface MenuMapper extends BaseMapper<Menu> {
+public interface OrderMapper extends BaseMapper<Order> {
 
 }

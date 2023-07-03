@@ -13,7 +13,7 @@ public class CodeGenerator {
         String password = "xduniversity20";
         String moduleName = "sys";
         String mapperLocation = "E:\\JAVA_Project\\x-admin\\src\\main\\resources\\mapper\\" + moduleName;
-        String tables = "x_user,x_role,x_menu,x_user_role,x_role_menu";
+        String tables = "x_user,x_role,x_menu,x_user_role,x_role_menu,x_car,x_order,x_reservation";
 
         FastAutoGenerator.create(url, username, password)
                 .globalConfig(builder -> {
